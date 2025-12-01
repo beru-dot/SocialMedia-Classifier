@@ -12,20 +12,19 @@ This project is a modular social media content analysis system built using LangG
 - Leverages **Ollama LLMs** for all language processing tasks with custom prompt templates.
 
 ## Folder Structure
-social_media_analyzer/
-├── src/
-│ ├── init.py
-│ ├── graph.py # LangGraph workflow definition
+
+SocialMedia-Analyser/
+├── ollama_agent/
+│ ├── __init__.py
+│ ├── agent.py # LangGraph workflow definition
 │ ├── state.py # State schemas and types
 │ └── nodes/
-│ ├── init.py
-│ ├── ner_node.py # NER node implementation
-│ ├── sentiment_node.py # Sentiment node implementation
-│ ├── translation_node.py # Translation node implementation
-│ └── summary_node.py # Summarization node implementation
-├── config/
-│ ├── init.py
-│ └── settings.py # Configuration for models and environment
+│   ├── __init__.py
+│   ├── ner_node.py # NER node implementation
+│   ├── sentiment_node.py # Sentiment node implementation
+│   ├── translation_node.py # Translation node implementation
+│   └── summary_node.py # Summarization node implementation
+│   └── orchestrator_node.py # Orchestrator node implementation
 ├── app.py # Entry point to run the LangGraph analyzer
 ├── requirements.txt # Python dependencies
 └── README.md # This documentation file
@@ -35,8 +34,8 @@ social_media_analyzer/
 
 1. Clone the repo and navigate into it:
     ```
-    git clone <repo-url>
-    cd social_media_analyzer
+    git clone https://github.com/beru-dot/SocialMedia-Analyser.git
+    cd SocialMedia-Analyser
     ```
 
 2. Create and activate a Python virtual environment:

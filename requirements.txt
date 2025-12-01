@@ -1,0 +1,12 @@
+langchain==0.3.27
+langchain-core==0.3.80
+langchain-ollama==0.3.10
+langchain-text-splitters==0.3.11
+langgraph==0.6.11
+numpy==2.0.2
+ollama==0.6.1
+requests==2.32.5
+tenacity==9.1.2
+torch==2.8.0
+urllib3==1.26.18
+

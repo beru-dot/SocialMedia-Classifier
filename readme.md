@@ -12,7 +12,7 @@ This project is a modular social media content analysis system built using LangG
 - Leverages **Ollama LLMs** for all language processing tasks with custom prompt templates.
 
 ## Folder Structure
-
+```
 SocialMedia-Analyser/
 ├── ollama_agent/
 │ ├── __init__.py
@@ -28,7 +28,7 @@ SocialMedia-Analyser/
 ├── app.py # Entry point to run the LangGraph analyzer
 ├── requirements.txt # Python dependencies
 └── README.md # This documentation file
-
+```
 
 ## Setup & Installation
 
